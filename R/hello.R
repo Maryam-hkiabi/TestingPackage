@@ -44,8 +44,14 @@ hello <- function() {
 devtools::load_all()
 devtools::document()
 
+#for git
+usethis::use_git()
 
+# lecture 4 slides 56-59
+# to link git local to git repo
 
+# to create a R script file
+usethis::use_r("modelSelection")
 
 
 
